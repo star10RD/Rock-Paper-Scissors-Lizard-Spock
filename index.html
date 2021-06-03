@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="resources/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="paper">
+            <img src="resources/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="scissors">
+            <img src="resources/scissors.png" alt="scissors">
+        </div>
+        <div class="choice" id="lizard">
+            <img src="resources/lizard.png" alt="lizard">
+        </div>
+        <div class="choice" id="spock">
+            <img src="resources/spock.png" alt="spock">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
